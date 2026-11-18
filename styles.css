@@ -24,3 +24,5 @@ h1 em{color:var(--green)}
 @keyframes ornament-swing{0%,100%{transform:rotate(-12deg)}25%{transform:rotate(-3deg)}75%{transform:rotate(-20deg)}}
 @media(max-width:760px){.year{font-size:39px}.details{margin-inline:20px;padding:28px 20px}.activities{grid-template-columns:repeat(2,1fr);max-width:none;gap:12px}.activities article{padding:23px 16px}.activities h3{font-size:19px}.activities article p{font-size:16px}.date strong{font-size:80px}.date .time strong{font-size:60px}.celebrate{padding:48px 20px}.ornament{transform-origin:50% -50px}}
 @media(prefers-reduced-motion:reduce){.ornament,.art:hover .ornament,.art.touched .ornament{animation:none!important}.activities article:hover{transform:none}}
+
+.confirm,.confirm:hover,.confirm:visited{color:#fff}.location a,.location a:visited{display:inline-flex;align-items:center;justify-content:center;background:#303235;color:#fff;padding:14px 20px;border-radius:7px;text-decoration:none}.location a:hover{background:#45484b}
